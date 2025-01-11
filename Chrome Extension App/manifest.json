@@ -1,0 +1,22 @@
+{
+    "name": "Malicious Email Detection",
+    "version": "1.0.0",
+    "description": "Detection of malicious email content using ChatGPT",
+    "manifest_version": 3,
+    "author": "Shravya",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Malicious Email Detection"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "storage",
+        "webNavigation",
+        "contextMenus",
+        "cookies",
+        "notifications",
+        "identity"
+    ]
+}
